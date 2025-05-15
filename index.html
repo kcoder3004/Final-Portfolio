@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krish Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYHewtJudrgbQr3XVIFJWg6vxRQMFfT4a8g&s" />
+</head>
+<body class="dark-mode">
+
+  <!-- Matrix Background -->
+  <canvas id="matrix-canvas"></canvas>
+
+  <!-- Password Screen -->
+  <div id="password-screen" class="password-screen">
+    <div class="password-container glow">
+      <h2>Enter the password</h2>
+      <input type="password" id="password-input" placeholder="hint: its portfolio" />
+      <button id="submit-password">Submit</button>
+      <div id="error-message" class="error-message">Incorrect password. Try again.</div>
+    </div>
+  </div>
+
+  <!-- Welcome Screen -->
+  <div id="welcome-screen" class="welcome-screen" style="display:none;">
+    <h1>Welcome to Krish Portfolio</h1>
+  </div>
+
+  <!-- Navbar -->
+  <div class="topnav">
+    <div class="nav-container">
+      <div class="matrix-container">
+        <div id="logo-text" class="matrix-text glow" data-text="Krish Portfolio">Krish Portfolio</div>
+      </div>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#digital">Digital Design</a></li>
+        <li><a class="nav-link" href="#animation">Animation</a></li>
+        <li><a class="nav-link" href="#music">Music Production</a></li>
+        <li><a class="nav-link" href="#coding">Coding</a></li>
+        <li><a class="nav-link" href="#design3d">3D Design</a></li>
+        <li><a class="nav-link" href="#passion">Passion Project</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Sections -->
+<div class = "realinfo">
+  <section id="home" class="section active">
+    <h1>Welcome to My Portfolio!</h1>
+  </section>
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>Hi, I'm Krish! I'm in 7th grade.</p>
+  </section>
+  <section id="digital" class="section">
+    <h2>Digital Design</h2>
+  </section>
+  <section id="animation" class="section">
+    <h2>Animation</h2>
+  </section>
+  <section id="music" class="section">
+    <h2>Music Production</h2>
+  </section>
+  <section id="coding" class="section">
+    <h2>Coding</h2>
+  </section>
+  <section id="design3d" class="section">
+    <h2>3D Design</h2>
+  </section>
+  <section id="passion" class="section">
+    <h2>Passion Project</h2>
+  </section>
+</div>
+  <div class="footer">
+    <p>© The content, design, graphics, and other materials on this website are protected by copyright. The content is owned by (First Name, Last Name). You may not reproduce, distribute, modify, transmit, display, perform, publish, license, create derivative works from, or sell any part of the content without the prior written permission of Krish Jain. Unauthorized use of the content may violate copyright, trademark, and other laws. Any unauthorized use or infringement may result in legal action. Thank you.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
